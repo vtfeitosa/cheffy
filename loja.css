@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #91C9C6;
+
+    font-family: 'Alegreya', serif;
+    color: #fff;
+
+    margin: 0%;
+    padding-top: 3rem;
+    padding-inline: 12rem;
+    padding-bottom: 0%;
+}
+
+header {
+    
+    background-color: var(--header-color);
+}
+
+header ~ h1 {
+    font-size: 3rem;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 5px;
+}
+
+#top div {
+    width: 200px;
+}
+
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+
+#carrinho {
+    display: flex;
+    justify-content: right;
+
+    gap: 5px;
+}
+
+#title_box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 5px;
+}
+
+.title {
+    font-size: 2rem;
+}
+
+.subtitle {
+    font-size: 1.2rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 100;
+
+}
+
+body > main > div {
+    /* Caixa com Bloco Título Loja e Bloco de Produtos */
+    background-color: #fff;
+
+    text-align: center;
+    color: #737373;
+
+    padding-top: 1rem;
+    padding-inline: 1rem;
+}
+
+body > main > div + div {
+    /* Bloco com Produtos */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    
+    padding: 0%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-around;
+
+    background-color: #C4E4E1;
+
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 0.3rem;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: 100;
+    color: #64908F;
+
+    margin-top: 35px;
+    margin-bottom: 35px;
+    padding: 3px;
+}
+
+.product {
+    max-width: 240px;
+    text-align: center;
+    font-style: normal;
+
+    margin-bottom: 1rem;
+    padding: 10px;
+}
+
+.product_img {
+    width: 225px;
+}
+
+.product_name {
+    margin: 0%;
+}
+
+.price {
+    color: grey;
+
+    margin: 0%;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+
+    margin-bottom: 0%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+footer > section > div {
+    /*Ícone Instagram + nome*/
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer > section > h3 {
+    /*CHEFFY + 2022*/
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer > section > p {
+    /*Endereço*/
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer > section {
+    /*Informações - Lado Esquerdo*/
+    width: 45vw;
+
+}
+
+footer > section + section {
+    /*Bloco Inscrição - Lado Direito*/
+    width: 50vw;    
+
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+footer > section + section > h2{ 
+      /*Titulo - Bloco de Inscrição*/
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+footer > section + section > div {
+    /* Bloco com textbox + Botão */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    /* background-color: rgb(255, 47, 47); */
+    
+}
+
+footer > section + section > div > div {
+    /* Bloco com textbox */
+    width: 100%;
+    height: auto;
+
+    
+    padding: 0%;
+}
+
+#email_box {
+    /* text box */
+    width: 100%;
+    height: 100%;
+
+    background: #D7D9D7;
+
+    border-color: #fff;
+    border-style: solid;
+
+    color: #737373;
+
+    padding: 10px;
+}
+
+footer > section + section > div > div + div {
+    /* Bloco com Botão */
+    width: 100%;
+    max-height: 100px;
+
+    /* background-color: green; */
+
+    margin-top: 1rem;
+    margin-bottom: 0%;
+    padding-inline: 0%;
+    
+}
+
+footer > section + section > div > div > button {
+    /* Botão de envio de e-mail */
+    width: 100%;
+    
+    background: #fff;
+
+    border: #fff;
+    border-radius: 0.1rem;
+
+    text-align: center;
+    color: #91C9C6;
+
+    margin-bottom: 0%;
+    padding: 10px;
+
+}
